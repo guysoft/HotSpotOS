@@ -1,0 +1,4 @@
+export DIST_NAME=HostSpotOS
+export DIST_VERSION=0.1.0
+export MODULES="base(network,disable-services(auto-hotspot))"
+BASE_OVERRIDE_HOSTNAME=hotspot
