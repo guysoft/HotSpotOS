@@ -30,7 +30,11 @@ Requirements
 Features
 --------
 
-* Runs a wifi hostspot out of the box if did not connect to wifi.
+* Fails to connect to wifi, it will start a wifi hotspot named ``hotspot``, password ``raspberry``.
+* Bridges between Ethernet and hotspot, which means if you connect the Pi to ethernet and set no wifi you will get a wifi hotspot to that ethernet network.
+* Wifi settings can be done headless in ``hostspotos-wpa-supplicant.txt``
+* Pi is avilable over the hotspot at IP ``192.168.50.1``
+* Supports Raspberry 3, 3B+ RaspberryPi Zero W.
 
 Developing
 ----------
