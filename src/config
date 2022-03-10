@@ -1,5 +1,7 @@
 export DIST_NAME=HotSpotOS
 export DIST_VERSION=0.1.0
-export MODULES="base(network,disable-services(auto-hotspot))"
+export MODULES="base(network,disable-services(auto-hotspot), usage-statistics)"
 BASE_OVERRIDE_HOSTNAME=hotspot
 AUTO_HOTSPOT_NAME=hotspot
+
+export USAGE_STATISTICS_URL=https://hotspotos-tracking.gnethomelinux.com
