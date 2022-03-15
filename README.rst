@@ -16,10 +16,10 @@ How to use it?
 --------------
 
 #. Unzip the image and install it to an SD card `like any other Raspberry Pi image <https://www.raspberrypi.org/documentation/installation/installing-images/README.md>`_
-#. Configure your WiFi by editing ``hotspotos-wpa-supplicant.txt`` on the root of the flashed card when using it like a flash drive
+#. If used as a wifi client, configure your WiFi by editing ``hotspotos-wpa-supplicant.txt`` on the root of the flashed card when using it like a flash drive
 #. Boot the Pi from the SD card
-#. If the image has found wifi then it will work like any raspbian image. If it fails, and connected to the internet via ethernet, it will start a wifi hotspot called "hotspot" which you can conncte to.
-#. If needed Log into your Pi via SSH (it is located at ``hotspot.local`` `if your computer supports bonjour <https://learn.adafruit.com/bonjour-zeroconf-networking-for-windows-and-linux/overview>`_ or the IP address assigned by your router), default username is "pi", default password is "raspberry", change the password using the ``passwd`` command and expand the filesystem of the SD card through the corresponding option when running ``sudo raspi-config``.
+#. If the image has found wifi then it will work like any RaspberryPi OS image. If it fails, or wifi is not set, it will start a wifi hotspot called "hotspot" which you can conncte to. Moreover, if an ethernet port is connected, it will bridge wifi and ethernet letting you connect to the internet.
+#. If needed Log into your Pi via SSH (it is located at ``hotspot.lan`` `if your computer supports bonjour <https://learn.adafruit.com/bonjour-zeroconf-networking-for-windows-and-linux/overview>`_ or the IP address assigned by your router), default username is "pi", default password is "raspberry", change the password using the ``passwd`` command and expand the filesystem of the SD card through the corresponding option when running ``sudo raspi-config``.
 
 Requirements
 ------------
@@ -32,8 +32,9 @@ Features
 
 * Fails to connect to wifi, it will start a wifi hotspot named ``hotspot``, password ``raspberry``.
 * Bridges between Ethernet and hotspot, which means if you connect the Pi to ethernet and set no wifi you will get a wifi hotspot to that ethernet network.
+* IPv6 support with prefix delegation.
 * Wifi settings can be done headless in ``hotspotos-wpa-supplicant.txt``
-* Pi is avilable over the hotspot at IP ``192.168.50.1``
+* Pi is avilable over the hotspot at IP hostname ``hotspot.lan``, on IPv4 ``192.168.50.1``.
 * Supports Raspberry 3, 3B+ RaspberryPi Zero W.
 
 Developing
