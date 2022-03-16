@@ -5,9 +5,10 @@ HotSpotOS
 .. :scale: 50 %
 .. :alt: HotSpotOS logo
 
-A `Raspberry Pi <http://www.raspberrypi.org/>`_ distribution that makes a Raspberrypi start a hotspot, if no wifi was found to conenct to. This repository contains the source script to generate the distribution out of an existing `Raspbian <http://www.raspbian.org/>`_ distro image. `You can download a built image here <http://unofficialpi.org/Distros/HotSpotOS>`_
+A `Raspberry Pi <http://www.raspberrypi.org/>`_ distribution that makes a Raspberrypi start a hotspot, if no wifi was found to conenct to. It also bridges internet comming in from ethernet.
+This repository contains the source script to generate the distribution out of an existing `RaspberryPi OS <https://www.raspberrypi.com/software/>`_ distro image. `You can download a built image here <http://unofficialpi.org/Distros/HotSpotOS>`_
 
-The hotspot scripts are based on the `scripts by roboberry <http://www.raspberryconnect.com/network/item/330-raspberry-pi-auto-wifi-hotspot-switch-internet>`_ . And are part of the ``auto-hotspot`` module of CustomPiOS.
+The hotspot scripts are based on the `scripts by roboberry <http://www.raspberryconnect.com/network/item/330-raspberry-pi-auto-wifi-hotspot-switch-internet>`_ . And have been improved. They are part of the ``auto-hotspot`` module of CustomPiOS.
 HotSpotOS is based on `CustomPiOS <https://github.com/guysoft/CustomPiOS>`_
 
 Where to get it?
