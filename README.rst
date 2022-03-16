@@ -108,3 +108,11 @@ Usage
 #. The final image will be created in ``src/workspace``
 
 Code contribution would be appreciated!
+
+
+Attribution
+~~~~~~~~~~~
+The logo of HotSpotOS is a mix from the following icons:
+1. https://icon-icons.com/icon/tech-ethernet/156953 (Dennis Suitters)  MIT License 
+2. https://icon-icons.com/icon/internet-ethernet/103772 Jeremiah CC Atribution
+3. https://pixabay.com/vectors/wireless-lan-ethernet-broadcast-304994/  Pixabay License (https://pixabay.com/service/license/)
