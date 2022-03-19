@@ -26,6 +26,8 @@ How to use it?
 #. If the image has found wifi then it will work like any RaspberryPi OS image. If it fails, or wifi is not set, it will start a wifi hotspot called "hotspot" which you can conncte to. Moreover, if an ethernet port is connected, it will bridge wifi and ethernet letting you connect to the internet.
 #. If needed Log into your Pi via SSH (it is located at ``hotspot.lan`` `if your computer supports bonjour <https://learn.adafruit.com/bonjour-zeroconf-networking-for-windows-and-linux/overview>`_ or the IP address assigned by your router), default username is "pi", default password is "raspberry", change the password using the ``passwd`` command and expand the filesystem of the SD card through the corresponding option when running ``sudo raspi-config``.
 
+Note: Local hostnames have the ``.lan`` domain ending. eg ``hotspot.lan``
+
 Requirements
 ------------
 * Raspberrypi 3 and newser or device running Armbian, Older Rasperry Pis are not currently supported.  See `Raspberry Pi <https://github.com/guysoft/FullPageOS/issues/12>`_ and `Raspberry Pi <https://github.com/guysoft/FullPageOS/issues/43>`_.
