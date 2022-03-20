@@ -4,4 +4,8 @@ export MODULES="base(network,disable-services(auto-hotspot), usage-statistics)"
 BASE_OVERRIDE_HOSTNAME=hotspot
 AUTO_HOTSPOT_NAME=hotspot
 
+export RPI_IMAGER_NAME="${DIST_NAME} version ${DIST_VERSION}"
+export RPI_IMAGER_DESCRIPTION="Raspberry Pi OS that starts a hotspot, if no wifi was found to conenct to"
+export RPI_IMAGER_ICON="https://raw.githubusercontent.com/guysoft/HotSpotOS/devel/media/rpi-imager-HotSpotOS.png"
+
 export USAGE_STATISTICS_URL=https://hotspotos-tracking.gnethomelinux.com
