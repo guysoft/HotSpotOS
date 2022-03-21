@@ -14,7 +14,9 @@ HotSpotOS is based on `CustomPiOS <https://github.com/guysoft/CustomPiOS>`_
 Where to get it?
 ----------------
 
-Official mirror is `here <http://unofficialpi.org/Distros/HotSpotOS>`_
+You can use the `pi-imager <https://github.com/guysoft/pi-imager/releases>`_ commuity raspberrypi imager here, unofficial section.
+
+Or download directly form the official mirror `here <http://unofficialpi.org/Distros/HotSpotOS>`_
 
 
 How to use it?
